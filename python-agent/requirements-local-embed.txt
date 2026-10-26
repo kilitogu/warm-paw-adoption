@@ -1,0 +1,5 @@
+# 可选的本地向量模型依赖
+# 仅当 .env 中 EMBEDDING_PROVIDER=huggingface 时需要安装
+# 会下载 sentence-transformers 与 PyTorch，体积较大，请按需安装
+langchain-huggingface==0.1.2
+sentence-transformers==3.3.1

@@ -1,0 +1,28 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== 环境变量与密钥 =====
+.env
+.env.*
+!.env.example
+
+# ===== 运行时产物 =====
+logs/
+*.log
+uploads/
+file/
+data/vectorstore/
+
+# ===== 测试缓存 =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
